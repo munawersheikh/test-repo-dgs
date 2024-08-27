@@ -1,0 +1,1357 @@
+{
+
+  "count": 244,
+  "records": [
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED",
+                    "create_date": "2023-12-18T20:11:43Z",
+                    "recid": 149,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 (annap) 630MHz, 50MSPS",
+                    "comment": "Fcenter = 630MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 30,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 630000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": -30,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 624499968,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 634499968,
+                                "width": 15000000
+                          },
+                          {
+                                "frequency": 629500032,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 634499968,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 639500032,
+                                "width": 5000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING",
+                    "create_date": "2023-12-18T20:25:53Z",
+                    "recid": 151,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 (annap) 740MHz, 50MSPS",
+                    "comment": "Fcenter = 740MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 60,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 740000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": -30,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 731500032,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 736499968,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 741500032,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 748499968,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 753500032,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 759500032,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 764499968,
+                                "width": 5000000
+                          },
+                          {
+                                "frequency": 739000000,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 751000000,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 763000000,
+                                "width": 10000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED",
+                    "create_date": "2023-12-19T18:22:14Z",
+                    "recid": 165,
+                    "type": "SDR",
+                    "node_recid": 121,
+                    "name": "dw5 5.8GHz, 50MSPS",
+                    "comment": "Fcenter = 5800MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 30,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 5800000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 1,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 5784999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5790000128,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5805000192,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5815000064,
+                                "width": 10000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 127,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 121,
+                    "vpn_host": "ufc-dw5",
+                    "name": "Deepwave5",
+                    "lla": "30.62401, -81.469, 10",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.10.10.114",
+                    "system_id": "dgs728p005",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 127,
+                    "name": "Rx0",
+                    "node_recid": 121,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "lla": "30.62401, -81.4697",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 121,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED",
+                    "create_date": "2023-12-19T18:46:51Z",
+                    "recid": 167,
+                    "type": "SDR",
+                    "node_recid": 117,
+                    "name": "dw2 2.4GHz, 50MSPS",
+                    "comment": "Fcenter = 2400MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 30,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 2440000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 2,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 1,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 2424999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2435000064,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2444999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2455000064,
+                                "width": 10000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 123,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "vpn_host": "ufc-dw2",
+                    "name": "Deepwave2",
+                    "lla": "41.3856426, 2.1749248,20",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.202",
+                    "system_id": "dgs728p002",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 123,
+                    "name": "Rx0",
+                    "node_recid": 117,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 115,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 117,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED",
+                    "create_date": "2023-12-19T20:00:48Z",
+                    "recid": 169,
+                    "type": "SDR",
+                    "node_recid": 125,
+                    "name": "DGS524P001 2.4GHz, 50MSPS",
+                    "comment": "Fcenter = 2400MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 30,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 2440000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 2,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 1,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 2424999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2435000064,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2444999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 2455000064,
+                                "width": 10000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 133,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:03:18Z",
+                    "recid": 125,
+                    "vpn_host": "dgs524p001",
+                    "name": "DGS524P001",
+                    "lla": "38.9189,-77.2315,300",
+                    "model": "5240",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.201",
+                    "system_id": "DGS524P001",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "Intel Silver 4310 CPU @2.10GHz",
+                    "cpu_cores": 24,
+                    "memory": "32GB",
+                    "disk": "900GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 20.04.6 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:03:18Z",
+                    "recid": 133,
+                    "name": "serial: 9342",
+                    "node_recid": 125,
+                    "os_ident": "9342:RX0",
+                    "model": "SKIQ-MPCIE-002 (PCIe) (part ES004206-E1-00)",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "70MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "50"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "61"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "76"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:03:18Z",
+                    "recid": 125,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 600-6GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 125,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~STOPPED",
+                    "create_date": "2023-12-20T17:35:30Z",
+                    "recid": 171,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 (annap) 731.5MHz, 7.68MSPS IQ_Capture",
+                    "comment": "Tmobile 5MHz Downlink",
+                    "pack_name": null,
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 3,
+                    "usable_bw": 6000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 50.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 7680000,
+                    "dwell": 3000,
+                    "collect_start": "2023-12-22T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 60,
+                    "debug_evaluate": "N",
+                    "channel_width": 8,
+                    "center_frequency": 731500032,
+                    "mask_recid": null,
+                    "mask_action": null,
+                    "mask_refresh_interval": null,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 0,
+                    "sdr_use_agc": "N",
+                    "channel_vectors": [ ],
+                    "collection_format": "fc32",
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": true,
+                    "samples_per_dwell": 23040000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED",
+                    "create_date": "2023-12-20T18:56:53Z",
+                    "recid": 173,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 #2 (annap) 731.5MHz, 7.68MSPS IQ_Capture",
+                    "comment": "Tmobile 5MHz Downlink",
+                    "pack_name": null,
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 3,
+                    "usable_bw": 6000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 50.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 7680000,
+                    "dwell": 3000,
+                    "collect_start": "2023-12-19T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 60,
+                    "debug_evaluate": "N",
+                    "channel_width": 8,
+                    "center_frequency": 731500032,
+                    "mask_recid": null,
+                    "mask_action": null,
+                    "mask_refresh_interval": null,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 0,
+                    "sdr_use_agc": "N",
+                    "channel_vectors": [ ],
+                    "collection_format": "fc32",
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": true,
+                    "samples_per_dwell": 23040000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED~RUNNING~STOPPED~RUNNING~STOPPED",
+                    "create_date": "2023-12-20T22:41:50Z",
+                    "recid": 175,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 (annap) 731.5MHz, 7.68MSPS IQ_Capture",
+                    "comment": " Tmobile 5MHz Downlink",
+                    "pack_name": null,
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 3,
+                    "usable_bw": 6000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 50.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 7680000,
+                    "dwell": 3000,
+                    "collect_start": "2023-12-20T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 60,
+                    "debug_evaluate": "N",
+                    "channel_width": 7680000,
+                    "center_frequency": 731500032,
+                    "mask_recid": null,
+                    "mask_action": null,
+                    "mask_refresh_interval": null,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 0,
+                    "sdr_use_agc": "N",
+                    "channel_vectors": [ ],
+                    "collection_format": "fc32",
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": true,
+                    "samples_per_dwell": 23040000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED",
+                    "create_date": "2023-12-20T23:05:10Z",
+                    "recid": 177,
+                    "type": "SDR",
+                    "node_recid": 119,
+                    "name": "dw4 #5 (annap) 731.5MHz, 7.68MSPS IQ_Capture",
+                    "comment": "3sec every 15min Tmobile 5MHz Downlink",
+                    "pack_name": null,
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 3,
+                    "usable_bw": 6000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 50.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 7680000,
+                    "dwell": 3000,
+                    "collect_start": "2023-12-20T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 900,
+                    "debug_evaluate": "N",
+                    "channel_width": 7680000,
+                    "center_frequency": 731500032,
+                    "mask_recid": null,
+                    "mask_action": null,
+                    "mask_refresh_interval": null,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 30,
+                    "sdr_use_agc": "N",
+                    "channel_vectors": [ ],
+                    "collection_format": "fc32",
+                    "sdr_recid": 125,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": true,
+                    "samples_per_dwell": 23040000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "vpn_host": "ufc-dw4",
+                    "name": "Deepwave4 (annap)",
+                    "lla": "38.9720770, -76.4826607,55",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.2.20.23",
+                    "system_id": "dgs728p004",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 125,
+                    "name": "Rx0",
+                    "node_recid": 119,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 117,
+                    "lla": "38.9187, -77.2311,1000",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 119,
+                    "gain": 10
+              }
+        },
+        {
+              "job": {
+                    "user_recid": 101,
+                    "enabled": "N",
+                    "conductor_recid": 101,
+                    "status": "PENDING~RUNNING~STOPPED~RUNNING~STOPPED",
+                    "create_date": "2023-12-22T15:41:31Z",
+                    "recid": 189,
+                    "type": "SDR",
+                    "node_recid": 121,
+                    "name": "KPD TEST dw5 5.8GHz, 50MSPS",
+                    "comment": "Fcenter = 5800MHz, 50MSPS, usable BW = 40MHz",
+                    "pack_name": "pack_name",
+                    "fft_size": 16384,
+                    "fft_avg_count": 10,
+                    "fft_trim": "N",
+                    "fft_option": "F",
+                    "debug_chop": "N",
+                    "debug_fft": "N",
+                    "debug_avg_fft": "N",
+                    "debug_psd": "N",
+                    "debug_bin": "N",
+                    "frame_occupancy_threshold": 0.4,
+                    "channel_occupancy_threshold": 50.0,
+                    "n_chops": 10,
+                    "usable_bw": 40000000,
+                    "nfe_interval": 10,
+                    "bin_occupancy_threshold": 10.0,
+                    "debug_create_iq_file": "N",
+                    "sample_rate": 50000000,
+                    "dwell": 150,
+                    "collect_start": "2023-12-12T10:00:00Z",
+                    "collect_end": "2023-12-30T12:00:00Z",
+                    "interval": 30,
+                    "debug_evaluate": "N",
+                    "channel_width": 50,
+                    "center_frequency": 5800000000,
+                    "mask_recid": null,
+                    "mask_action": "mask_action",
+                    "mask_refresh_interval": 21,
+                    "health_check_interval": 60,
+                    "rf_path_offset": 0.0,
+                    "avg_psd_transfer_interval": 60,
+                    "debug_save_plots": "N",
+                    "chop_enabled": "Y",
+                    "debug_save_inputs": "N",
+                    "db_host": "ufc-dbw1",
+                    "sdr_gain": 1,
+                    "sdr_use_agc": "Y",
+                    "channel_vectors": [
+                          {
+                                "frequency": 5784999936,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5790000128,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5805000192,
+                                "width": 10000000
+                          },
+                          {
+                                "frequency": 5815000064,
+                                "width": 10000000
+                          }
+                    ],
+                    "collection_format": null,
+                    "sdr_recid": 127,
+                    "is_sdr_job": true,
+                    "is_file_job": false,
+                    "is_collection_only": false,
+                    "samples_per_dwell": 7500000
+              },
+              "node": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 121,
+                    "vpn_host": "ufc-dw5",
+                    "name": "Deepwave5",
+                    "lla": "30.62401, -81.469, 10",
+                    "model": "Deepwave",
+                    "serial": "00000",
+                    "dev_host": "10.10.10.114",
+                    "system_id": "dgs728p005",
+                    "rf_brd_ports": 0,
+                    "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                    "cpu_cores": 4,
+                    "memory": "8GB",
+                    "disk": "30GB",
+                    "ufc_sw_ver": "1.0",
+                    "os_ver": "Ubuntu 18.04.5 LTS"
+              },
+              "sdr": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 127,
+                    "name": "Rx0",
+                    "node_recid": 121,
+                    "os_ident": ":RX0",
+                    "model": "Deepwave",
+                    "driver": "Soapy"
+              },
+              "sdr_specs": [
+                    {
+                          "name": "MIN TUNING RANGE",
+                          "value": "300MHZ"
+                    },
+                    {
+                          "name": "MAX TUNING RANGE",
+                          "value": "6000MHZ"
+                    },
+                    {
+                          "name": "MAX BANDWIDTH",
+                          "value": "100"
+                    },
+                    {
+                          "name": "MAX SAMPLE RATE",
+                          "value": "125"
+                    },
+                    {
+                          "name": "MIN SDR GAIN",
+                          "value": "0"
+                    },
+                    {
+                          "name": "MAX SDR GAIN",
+                          "value": "-75"
+                    }
+              ],
+              "antenna": {
+                    "create_date": "2023-12-18T20:01:51Z",
+                    "recid": 119,
+                    "lla": "30.62401, -81.4697",
+                    "model": "Plugin 2.4-5.8GHz",
+                    "beamwidth": null,
+                    "angle": null,
+                    "point_direction": "OMNI",
+                    "node_recid": 121,
+                    "gain": 10
+              }
+        }
+  ]
+
+}

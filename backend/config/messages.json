@@ -1,0 +1,68 @@
+{
+    "organization": {
+        "created": "Organization created successfully.",
+        "updated": "Organization updated successfully.",
+        "deleted": "Organization deleted successfully.",
+        "notFound": "Organization not found."
+    },
+    "user": {
+        "created": "User created successfully.",
+        "updated": "User updated successfully.",
+        "deleted": "User deleted successfully.",
+        "notFound": "User not found."
+    },
+    "site": {
+        "created": "Site created successfully.",
+        "updated": "Site updated successfully.",
+        "deleted": "Site deleted successfully.",
+        "notFound": "Site not found."
+    },
+    "node": {
+        "created": "Node created successfully.",
+        "updated": "Node updated successfully.",
+        "deleted": "Node deleted successfully.",
+        "notFound": "Node not found."
+    },
+    "userSite": {
+        "created": "UserSite created successfully.",
+        "updated": "UserSite updated successfully.",
+        "deleted": "UserSite deleted successfully.",
+        "notFound": "UserSite not found."
+    },
+    "userNode": {
+        "created": "UserNode created successfully.",
+        "updated": "UserNode updated successfully.",
+        "deleted": "UserNode deleted successfully.",
+        "notFound": "UserNode not found."
+    },
+    "userPreference": {
+        "created": "UserPreference created successfully.",
+        "updated": "UserPreference updated successfully.",
+        "deleted": "UserPreference deleted successfully.",
+        "notFound": "UserPreference not found."
+    },
+    "screen": {
+        "created": "Screen created successfully.",
+        "updated": "Screen updated successfully.",
+        "deleted": "Screen deleted successfully.",
+        "notFound": "Screen not found."
+    },
+    "application": {
+        "created": "Application created successfully.",
+        "updated": "Application updated successfully.",
+        "deleted": "Application deleted successfully.",
+        "notFound": "Application not found."
+    },
+    "userScreen": {
+        "created": "UserScreen created successfully.",
+        "updated": "UserScreen updated successfully.",
+        "deleted": "UserScreen deleted successfully.",
+        "notFound": "UserScreen not found."
+    },
+    "userApplication": {
+        "created": "UserApplication created successfully.",
+        "updated": "UserApplication updated successfully.",
+        "deleted": "UserApplication deleted successfully.",
+        "notFound": "UserApplication not found."
+    }
+}

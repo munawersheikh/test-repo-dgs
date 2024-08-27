@@ -1,0 +1,2312 @@
+
+{
+
+      "count": 108,
+      "records": [
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED~RUNNING~STOPPED",
+                        "create_date": "2024-07-08T15:44:32Z",
+                        "recid": 117,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134.5 @ 12MSPS",
+                        "comment": "Conditioning Eval Job",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 10,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 9600000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 12000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 12000000,
+                        "center_frequency": 134500000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 101,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 1200000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:54:16Z",
+                        "recid": 101,
+                        "name": "Rx0",
+                        "node_recid": 101,
+                        "os_ident": ":RX0",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:48:08Z",
+                        "recid": 103,
+                        "lla": "35 03.847, -89 59.358, 72.2376",
+                        "model": "ACARS-150-400MHz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED~RUNNING~STOPPED",
+                        "create_date": "2024-07-08T15:53:04Z",
+                        "recid": 121,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134.5 @ 12MSPS",
+                        "comment": "Conditioning Eval Job agc=n, -20",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 10,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 9600000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 12000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 12000000,
+                        "center_frequency": 134500000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": -20,
+                        "sdr_use_agc": "N",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 101,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 1200000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:54:16Z",
+                        "recid": 101,
+                        "name": "Rx0",
+                        "node_recid": 101,
+                        "os_ident": ":RX0",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:48:08Z",
+                        "recid": 103,
+                        "lla": "35 03.847, -89 59.358, 72.2376",
+                        "model": "ACARS-150-400MHz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-08T15:44:57Z",
+                        "recid": 119,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "MARS 750 50 MSPS",
+                        "comment": "FEDEX  LTE Survey",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 20,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 40000000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 50000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 10,
+                        "debug_evaluate": "N",
+                        "channel_width": 50000000,
+                        "center_frequency": 750000000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 6,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "N",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [ ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 5000000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-08T15:54:45Z",
+                        "recid": 125,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "MARS 750 50 MSPS",
+                        "comment": "FEDEX  LTE Survey, agc=N, -30",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 20,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 40000000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 50000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 10,
+                        "debug_evaluate": "N",
+                        "channel_width": 50000000,
+                        "center_frequency": 750000000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 6,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "N",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [ ],
+                        "collection_format": null,
+                        "sdr_gain": -30,
+                        "sdr_use_agc": "N",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 5000000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-09T21:17:46Z",
+                        "recid": 143,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "MARS 750 50 MSPS",
+                        "comment": "FEDEX  LTE Survey",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 20,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 40000000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 50000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 10,
+                        "debug_evaluate": "N",
+                        "channel_width": 50000000,
+                        "center_frequency": 750000000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 60,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "N",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [ ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 5000000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-09T21:19:00Z",
+                        "recid": 145,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "MARS 750 50 MSPS",
+                        "comment": "FEDEX  LTE Survey, agc=N, -30",
+                        "pack_name": "PSD",
+                        "fft_size": 8192,
+                        "fft_avg_count": 20,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 10,
+                        "usable_bw": 40000000,
+                        "nfe_interval": 10,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 50000000,
+                        "dwell": 100,
+                        "collect_start": "2024-07-04T09:00:00Z",
+                        "collect_end": "2024-07-25T05:00:00Z",
+                        "interval": 10,
+                        "debug_evaluate": "N",
+                        "channel_width": 50000000,
+                        "center_frequency": 750000000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 60,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "N",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [ ],
+                        "collection_format": null,
+                        "sdr_gain": -30,
+                        "sdr_use_agc": "N",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 5000000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-12T15:45:37Z",
+                        "recid": 185,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134MHz 8MSPS",
+                        "comment": "Memory Mgmt Job",
+                        "pack_name": "CHOP",
+                        "fft_size": 4096,
+                        "fft_avg_count": 5,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 5,
+                        "usable_bw": 6400000,
+                        "nfe_interval": 5,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 8000000,
+                        "dwell": 50,
+                        "collect_start": "2024-07-12T09:00:00Z",
+                        "collect_end": "2024-07-26T23:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 8000000,
+                        "center_frequency": 134300000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131525000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131550000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131575000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131800000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131825000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136175000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136200000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136225000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136250000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136275000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136300000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136325000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136350000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136375000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136400000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136425000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136875000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136900000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136925000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136950000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137000000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137025000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137050000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137075000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137100000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 400000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-12T15:51:51Z",
+                        "recid": 187,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134MHz 8MSPS",
+                        "comment": "Memory Mgmt Job",
+                        "pack_name": "CHOP",
+                        "fft_size": 4096,
+                        "fft_avg_count": 5,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 5,
+                        "usable_bw": 6400000,
+                        "nfe_interval": 5,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 8000000,
+                        "dwell": 50,
+                        "collect_start": "2024-07-12T09:00:00Z",
+                        "collect_end": "2024-07-26T23:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 8000000,
+                        "center_frequency": 134300000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131525000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131550000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131575000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131800000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131825000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136175000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136200000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136225000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136250000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136275000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136300000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136325000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136350000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136375000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136400000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136425000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136875000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136900000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136925000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136950000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137000000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137025000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137050000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137075000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137100000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 400000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-12T15:59:51Z",
+                        "recid": 189,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134MHz 8MSPS",
+                        "comment": "Memory Mgmt Job",
+                        "pack_name": "CHOP",
+                        "fft_size": 4096,
+                        "fft_avg_count": 5,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 5,
+                        "usable_bw": 6400000,
+                        "nfe_interval": 5,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 8000000,
+                        "dwell": 50,
+                        "collect_start": "2024-07-12T09:00:00Z",
+                        "collect_end": "2024-07-26T23:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 8000000,
+                        "center_frequency": 134300000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131525000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131550000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131575000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131800000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131825000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136175000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136200000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136225000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136250000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136275000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136300000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136325000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136350000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136375000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136400000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136425000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136875000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136900000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136925000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136950000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137000000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137025000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137050000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137075000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137100000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 400000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            },
+            {
+                  "job": {
+                        "user_recid": 101,
+                        "enabled": "N",
+                        "conductor_recid": 101,
+                        "status": "PENDING~RUNNING~STOPPED",
+                        "create_date": "2024-07-12T16:14:48Z",
+                        "recid": 193,
+                        "type": "SDR",
+                        "node_recid": 101,
+                        "name": "ACARS 134MHz 8MSPS",
+                        "comment": "Memory Mgmt Job",
+                        "pack_name": "CHOP",
+                        "fft_size": 4096,
+                        "fft_avg_count": 5,
+                        "fft_trim": "N",
+                        "fft_option": "F",
+                        "debug_chop": "N",
+                        "debug_fft": "N",
+                        "debug_avg_fft": "N",
+                        "debug_psd": "N",
+                        "debug_bin": "N",
+                        "frame_occupancy_threshold": 0.4,
+                        "channel_occupancy_threshold": 0.5,
+                        "n_chops": 5,
+                        "usable_bw": 6400000,
+                        "nfe_interval": 5,
+                        "bin_occupancy_threshold": 10,
+                        "debug_create_iq_file": "N",
+                        "sample_rate": 8000000,
+                        "dwell": 50,
+                        "collect_start": "2024-07-12T09:00:00Z",
+                        "collect_end": "2024-07-26T23:00:00Z",
+                        "interval": 1,
+                        "debug_evaluate": "N",
+                        "channel_width": 8000000,
+                        "center_frequency": 134300000,
+                        "mask_recid": null,
+                        "mask_action": "mask_action",
+                        "mask_refresh_interval": 21,
+                        "health_check_interval": 60,
+                        "rf_path_offset": 0,
+                        "avg_psd_transfer_interval": 1,
+                        "debug_save_plots": "N",
+                        "chop_enabled": "Y",
+                        "debug_save_inputs": "N",
+                        "db_host": "dbw1.prod.dgsnet",
+                        "channel_vectors": [
+                              {
+                                    "frequency": 131525000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131550000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131575000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131600000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131625000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131650000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131675000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131700000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131725000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131750000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131775000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131800000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131825000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 131850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136175000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136200000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136225000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136250000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136275000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136300000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136325000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136350000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136375000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136400000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136425000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136850000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136875000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136900000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136925000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136950000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 136975000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137000000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137025000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137050000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137075000,
+                                    "width": 25000
+                              },
+                              {
+                                    "frequency": 137100000,
+                                    "width": 25000
+                              }
+                        ],
+                        "collection_format": null,
+                        "sdr_gain": 0,
+                        "sdr_use_agc": "Y",
+                        "demod_priority": null,
+                        "demod_host": null,
+                        "lna": "N",
+                        "rdsa": 0,
+                        "fdsa": 0,
+                        "sdr_recid": 103,
+                        "is_sdr_job": true,
+                        "is_file_job": false,
+                        "is_collection_only": false,
+                        "is_demod_job": false,
+                        "samples_per_dwell": 400000
+                  },
+                  "node": {
+                        "create_date": "2024-05-21T18:40:39Z",
+                        "recid": 101,
+                        "vpn_host": "dgs828p002.prod.dgsnet",
+                        "name": "MEMPHIS_1-dgs828p002.prod",
+                        "lla": "35 03.847, -89 59.358, 71.0184",
+                        "model": "DEEPWAVE 8280",
+                        "serial": "serial",
+                        "dev_host": "1.2.3.4",
+                        "system_id": "dgs828p002.prod",
+                        "rf_brd_ports": 0,
+                        "cpu_type": "ARMv8 Processor rev 3 (v8l)",
+                        "cpu_cores": 4,
+                        "memory": "8GB",
+                        "disk": "500GB",
+                        "ufc_sw_ver": "1.0",
+                        "os_ver": "Ubuntu 18.04.5 LTS",
+                        "enabled": "Y"
+                  },
+                  "sdr": {
+                        "create_date": "2024-05-21T18:56:20Z",
+                        "recid": 103,
+                        "name": "Rx1",
+                        "node_recid": 101,
+                        "os_ident": ":RX1",
+                        "model": "Deepwave",
+                        "driver": "Soapy",
+                        "enabled": "Y"
+                  },
+                  "sdr_specs": [
+                        {
+                              "name": "MIN TUNING RANGE",
+                              "value": "30000000"
+                        },
+                        {
+                              "name": "MAX TUNING RANGE",
+                              "value": "6000000000"
+                        },
+                        {
+                              "name": "MIN BANDWIDTH",
+                              "value": "3125000"
+                        },
+                        {
+                              "name": "MAX BANDWIDTH",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SAMPLE RATE",
+                              "value": "233000"
+                        },
+                        {
+                              "name": "MAX SAMPLE RATE",
+                              "value": "125000000"
+                        },
+                        {
+                              "name": "MIN SDR GAIN",
+                              "value": "-30"
+                        },
+                        {
+                              "name": "MAX SDR GAIN",
+                              "value": "0"
+                        }
+                  ],
+                  "rf_board_path": null,
+                  "antenna": {
+                        "create_date": "2024-05-21T18:47:31Z",
+                        "recid": 101,
+                        "lla": "35 03.847, -89 59.358, 71.4756",
+                        "model": "MARS-400Mhz-6Ghz",
+                        "beamwidth": 0,
+                        "angle": 0,
+                        "point_direction": "OMNI",
+                        "node_recid": 101,
+                        "gain": 5,
+                        "enabled": "Y"
+                  },
+                  "user": {
+                        "create_date": "2024-07-03T14:24:28Z",
+                        "recid": 101,
+                        "cust_recid": 101,
+                        "username": "jchiochetti",
+                        "password": "dgs",
+                        "first_name": "John",
+                        "last_name": "Chiochetti"
+                  },
+                  "customer": {
+                        "create_date": "2024-06-26T14:01:10Z",
+                        "recid": 101,
+                        "name": "L3 HARRIS",
+                        "email": "mike@l3harris.com",
+                        "phone": null,
+                        "sales_rep": "JL"
+                  }
+            }
+      ]
+
+}
